@@ -1,11 +1,13 @@
-import Header from "./components/Header/Header"
+import Header from "./components/Header/Header";
+import ArticleList from "./components/ArticleList/ArticleList";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
-    </div>
-  )
+      <ArticleList />
+    </>
+  );
 }
 
-export default App
+export default App;
